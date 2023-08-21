@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="@drawable/bg"
+    tools:context=".gk2">
+
+    <TextView
+        android:id="@+id/gk_question2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/question_2"
+        android:fontFamily="sans-serif-condensed"
+        android:textColor="@color/design_default_color_primary_variant"
+        android:textStyle="bold"
+        android:textSize="30sp"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.444"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.119" />
+
+    <TextView
+        android:id="@+id/gk_q2_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:paddingStart="15dp"
+        android:text="@string/which_country_conferred_merit_service_medal_to_india_s_former_navy_chief_admiral_sunil_lanba"
+
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/gk_rg2"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="RtlHardcoded,RtlSymmetry" />
+
+    <RadioGroup
+        android:id="@+id/gk_rg2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.555"
+        tools:ignore="MissingConstraints">
+
+        <RadioButton
+            android:id="@+id/radioButton5"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="7dp"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:padding="10dp"
+            android:text="@string/australia"
+
+
+            android:textSize="15sp"
+
+            />
+
+        <RadioButton
+            android:id="@+id/radio6"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="7dp"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:padding="10dp"
+
+            android:text="@string/japan"
+
+            android:textSize="15sp"
+
+            />
+
+        <RadioButton
+            android:id="@+id/radioButton7"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="7dp"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:padding="10dp"
+            android:text="@string/singapore"
+
+            android:textSize="15sp" />
+
+        <RadioButton
+            android:id="@+id/radioButton8"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="7dp"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:padding="10dp"
+            android:text="@string/bangladesh"
+
+            android:textSize="15sp" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/gk_q2_next"
+        android:layout_width="137dp"
+        android:layout_height="48dp"
+        android:text="@string/next"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/gk_rg2" />
+</androidx.constraintlayout.widget.ConstraintLayout>

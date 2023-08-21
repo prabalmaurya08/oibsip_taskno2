@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">iQuizz</string>
+    <string name="title_activity_lay_main">Lay_main</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Demo Quiz</string>
+    <string name="menu_gallery">G.K Quiz</string>
+    <string name="menu_slideshow">Networking Quiz</string>
+    <string name="enter_your_email_id">Enter Your Email Id</string>
+    <string name="username">Username</string>
+    <string name="submit">Submit</string>
+    <string name="enter_your_password">Enter Your Password</string>
+
+    <string name="welcome">WELCOME</string>
+    <string name="start">START</string>
+
+    <string name="todo">TODO</string>
+    <string name="q">Want to give a demo quiz Continue and Best of Luck</string>
+    <string name="question_1">Question 1</string>
+    <string name="fastest_century_in_test_cricket_match">Fastest century in test cricket match?</string>
+    <string name="next">Next</string>
+    <string name="jm_bairstow">JM Bairstow</string>
+    <string name="iva_richards">IVA Richards</string>
+    <string name="bb_mccullum">BB McCullum</string>
+    <string name="kapil_dev">Kapil Dev</string>
+    <string name="as_per_the_imf_s_recent_world_economic_outlook_report_october_2022_what_is_india_s_2022_23_gdp_forecast">As per the IMF’s recent World Economic Outlook report (October 2022), what is India’s 2022-23 GDP forecast?</string>
+    <string name="your_total_score">Your Total Score</string>
+    <string name="which_country_conferred_merit_service_medal_to_india_s_former_navy_chief_admiral_sunil_lanba">Which country conferred merit service medal to India’s former Navy Chief Admiral Sunil Lanba?</string>
+    <string name="question_2">Question 2</string>
+    <string name="singapore">Singapore</string>
+    <string name="japan">Japan</string>
+    <string name="quiz_result">Quiz Result</string>
+    <string name="back">Back</string>
+    <string name="number_of_correct_answer">Number of Correct Answer =</string>
+    <string name="number_of_incorrect_answer">Number of Incorrect Answer =</string>
+    <string name="bangladesh">Bangladesh</string>
+    <string name="australia">Australia</string>
+    <string name="question_3">Question 3</string>
+    <string name="which_city_played_host_to_the_harbour_phase_of_japan_india_maritime_exercise_2022_jimex_22">Which city played host to the harbour phase of Japan India Maritime Exercise 2022 (JIMEX 22)?</string>
+
+    <string name="vishakhapatnam">Vishakhapatnam</string>
+    <string name="goa">Goa</string>
+    <string name="mumbai">Mumbai</string>
+    <string name="pune">pune</string>
+    <string name="question_4">Question 4</string>
+    <string name="_6_8">6.8 %</string>
+    <string name="_7_0">7.0 %</string>
+    <string name="_6_0">6.0 %</string>
+    <string name="_5_8">5.8 %</string>
+</resources>

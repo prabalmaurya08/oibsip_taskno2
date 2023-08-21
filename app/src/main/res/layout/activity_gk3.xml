@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="@drawable/bg"
+    tools:context=".gk3">
+
+    <TextView
+        android:id="@+id/gk_question3"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="@string/question_3"
+        android:fontFamily="sans-serif-condensed"
+        android:textColor="@color/design_default_color_primary_variant"
+        android:textStyle="bold"
+        android:textAlignment="center
+"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.444"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.119" />
+
+    <TextView
+        android:id="@+id/gk_q3_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingStart="15dp"
+
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="@string/which_city_played_host_to_the_harbour_phase_of_japan_india_maritime_exercise_2022_jimex_22"
+        android:textSize="20sp"
+
+        app:layout_constraintBottom_toTopOf="@+id/gk_rg3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.145"
+        app:layout_constraintStart_toStartOf="parent"
+
+        app:layout_constraintVertical_bias="0.899"
+        tools:ignore="RtlSymmetry" />
+
+    <RadioGroup
+        android:id="@+id/gk_rg3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        >
+
+        <RadioButton
+            android:id="@+id/radioButton9"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:textSize="15sp"
+
+            android:padding="10dp"
+
+            android:layout_margin="7dp"
+            android:text="@string/mumbai"
+
+            />
+
+        <RadioButton
+            android:id="@+id/radio10"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:textSize="15sp"
+            android:padding="10dp"
+
+            android:layout_margin="7dp"
+
+            android:text="@string/goa"
+
+            />
+
+        <RadioButton
+            android:id="@+id/radioButton11"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:textSize="15sp"
+
+            android:padding="10dp"
+            android:layout_margin="7dp"
+            android:text="@string/vishakhapatnam" />
+
+        <RadioButton
+            android:id="@+id/radioButton12"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:textSize="15sp"
+
+            android:padding="10dp"
+            android:layout_margin="7dp"
+            android:text="@string/pune" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/gk_q3_next"
+        android:layout_width="137dp"
+        android:layout_height="48dp"
+        android:text="@string/next"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/gk_rg3" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

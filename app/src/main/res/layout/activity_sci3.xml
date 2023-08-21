@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context=".sci3">
+
+
+
+
+
+    <TextView
+        android:id="@+id/sci_question3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Question 3"
+        android:fontFamily="sans-serif-condensed"
+        android:textColor="@color/design_default_color_primary_variant"
+        android:textStyle="bold"
+        android:textSize="30sp"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.444"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.119" />
+
+    <TextView
+        android:id="@+id/sci_q3_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+
+        android:fontFamily="sans-serif-condensed-medium"
+        android:paddingStart="15dp"
+        android:text="In the human body, fats are stored in the "
+
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/sci_rg3"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="RtlHardcoded,RtlSymmetry" />
+
+    <RadioGroup
+        android:id="@+id/sci_rg3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.555"
+        tools:ignore="MissingConstraints">
+
+        <RadioButton
+            android:id="@+id/radioButton33"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="7dp"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:padding="10dp"
+            android:text="Epidermis"
+
+
+            android:textSize="15sp"
+
+            />
+
+        <RadioButton
+            android:id="@+id/radiobutton34"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="7dp"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:padding="10dp"
+
+            android:text="Adipose Tissue"
+
+            android:textSize="15sp"
+
+            />
+
+        <RadioButton
+            android:id="@+id/radioButton35"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="7dp"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:padding="10dp"
+            android:text="Liver"
+
+            android:textSize="15sp" />
+
+        <RadioButton
+            android:id="@+id/radioButton36"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="7dp"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:padding="10dp"
+            android:text="Epithelium"
+
+            android:textSize="15sp" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/sci_q3_next"
+        android:layout_width="137dp"
+        android:layout_height="48dp"
+        android:text="@string/next"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sci_rg3" />
+</androidx.constraintlayout.widget.ConstraintLayout>

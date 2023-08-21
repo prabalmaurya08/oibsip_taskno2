@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context=".sci4">
+
+
+    <TextView
+        android:id="@+id/sci_question4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Question 4"
+        android:fontFamily="sans-serif-condensed"
+        android:textColor="@color/design_default_color_primary_variant"
+        android:textStyle="bold"
+        android:textSize="30sp"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.444"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.119" />
+
+    <TextView
+        android:id="@+id/sci_q4_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:paddingStart="15dp"
+        android:text="Who has been appointed as chief design consultant for TRIFED?"
+
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/sci_rg4"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="RtlHardcoded,RtlSymmetry" />
+
+    <RadioGroup
+        android:id="@+id/sci_rg4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.555"
+        tools:ignore="MissingConstraints">
+
+        <RadioButton
+            android:id="@+id/radioButton37"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="7dp"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:padding="10dp"
+            android:text="Tarun Tahiliani"
+
+            android:textSize="15sp"
+
+            />
+
+        <RadioButton
+            android:id="@+id/radiobutton38"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="7dp"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:padding="10dp"
+
+            android:text="Manish Malhotra"
+
+            android:textSize="15sp"
+
+            />
+
+        <RadioButton
+            android:id="@+id/radioButton39"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="7dp"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:padding="10dp"
+            android:text="Rohit Bal"
+
+            android:textSize="15sp" />
+
+        <RadioButton
+            android:id="@+id/radioButton40"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="7dp"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:padding="10dp"
+            android:text="Ritu Beri"
+
+            android:textSize="15sp" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/sci_q4_next"
+        android:layout_width="137dp"
+        android:layout_height="48dp"
+        android:text="@string/next"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sci_rg4" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,24 @@
+    <resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.IQuizz" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <style name="Theme.IQuizz" parent="Base.Theme.IQuizz" />
+
+    <style name="Theme.IQuizz.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.IQuizz.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+<!--        for raido button -->
+
+    <style name="Theme.IQuizz.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+        <style name="round" parent="">
+            <item name="cornerFamily">rounded</item>
+            <item name="cornerRadius">15dp</item>
+        </style>
+</resources>

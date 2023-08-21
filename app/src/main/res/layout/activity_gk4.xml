@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="@drawable/bg"
+    tools:context=".gk4">
+
+    <TextView
+        android:id="@+id/gk_question4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/question_4"
+        android:fontFamily="sans-serif-condensed"
+        android:textColor="@color/design_default_color_primary_variant"
+        android:textStyle="bold"
+        android:textSize="30sp"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.444"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.119"/>
+
+    <TextView
+        android:id="@+id/gk_q4_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:fontFamily="sans-serif-condensed-medium"
+
+        android:text="@string/as_per_the_imf_s_recent_world_economic_outlook_report_october_2022_what_is_india_s_2022_23_gdp_forecast"
+        android:textSize="20sp"
+        android:paddingStart="15dp"
+        app:layout_constraintBottom_toTopOf="@+id/gk_rg4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.145"
+        app:layout_constraintStart_toStartOf="parent"
+
+        tools:ignore="RtlSymmetry" />
+
+    <RadioGroup
+        android:id="@+id/gk_rg4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.561"
+        tools:ignore="MissingConstraints">
+
+        <RadioButton
+            android:id="@+id/radioButton13"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="7dp"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:padding="10dp"
+            android:text="@string/_5_8"
+
+
+            android:textSize="15sp"
+
+            />
+
+        <RadioButton
+            android:id="@+id/radioButton14"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="7dp"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:padding="10dp"
+
+            android:text="@string/_6_0"
+
+            android:textSize="15sp"
+
+            />
+
+        <RadioButton
+            android:id="@+id/radioButton15"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="7dp"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:padding="10dp"
+            android:text="@string/_7_0"
+
+            android:textSize="15sp" />
+
+        <RadioButton
+            android:id="@+id/radioButton16"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="7dp"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:padding="10dp"
+            android:text="@string/_6_8"
+
+            android:textSize="15sp" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/gk_q4_next"
+        android:layout_width="137dp"
+        android:layout_height="48dp"
+        android:text="@string/next"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/gk_rg4" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
