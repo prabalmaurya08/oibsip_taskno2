@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
 
-    android:background="@drawable/bg"
+    android:background="#44D8EC"
     tools:context=".gk1">
 
     <TextView
@@ -15,7 +15,7 @@
         android:layout_height="wrap_content"
         android:fontFamily="sans-serif-condensed"
         android:text="@string/question_1"
-        android:textColor="@color/design_default_color_primary_variant"
+
         android:textSize="30sp"
         android:textStyle="bold"
 
@@ -36,6 +36,7 @@
         android:fontFamily="sans-serif-condensed-medium"
         android:text="@string/fastest_century_in_test_cricket_match"
         android:textSize="20sp"
+
         app:layout_constraintBottom_toTopOf="@+id/gk_rg1"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.145"

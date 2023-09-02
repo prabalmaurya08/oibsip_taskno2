@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/bg"
+    android:background="#44D8EC"
+
     tools:context=".demo1">
 
 
@@ -14,7 +15,7 @@
         android:layout_height="wrap_content"
         android:text="Question 1"
         android:fontFamily="sans-serif-condensed"
-        android:textColor="@color/design_default_color_primary_variant"
+
         android:textStyle="bold"
         android:textSize="30sp"
 
@@ -33,6 +34,7 @@
         android:fontFamily="sans-serif-condensed-medium"
         android:paddingStart="15dp"
         android:text="Which High Court has the largest jurisdiction?"
+
 
         android:textSize="20sp"
         app:layout_constraintBottom_toTopOf="@+id/demo_rg1"

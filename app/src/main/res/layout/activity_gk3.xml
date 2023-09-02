@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
 
-    android:background="@drawable/bg"
+    android:background="#44D8EC"
     tools:context=".gk3">
 
     <TextView
@@ -14,7 +14,7 @@
         android:layout_height="wrap_content"
         android:text="@string/question_3"
         android:fontFamily="sans-serif-condensed"
-        android:textColor="@color/design_default_color_primary_variant"
+
         android:textStyle="bold"
         android:textAlignment="center
 "
@@ -35,6 +35,7 @@
         android:fontFamily="sans-serif-condensed-medium"
         android:text="@string/which_city_played_host_to_the_harbour_phase_of_japan_india_maritime_exercise_2022_jimex_22"
         android:textSize="20sp"
+
 
         app:layout_constraintBottom_toTopOf="@+id/gk_rg3"
         app:layout_constraintEnd_toEndOf="parent"

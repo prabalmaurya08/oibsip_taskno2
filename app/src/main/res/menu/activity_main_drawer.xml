@@ -14,8 +14,8 @@
             android:title="@string/menu_gallery" />
         <item
             android:id="@+id/nav_slideshow"
-            android:icon="@drawable/network"
-            android:title="@string/menu_slideshow" />
+            android:icon="@drawable/sci"
+            android:title="@string/science_quiz" />
     </group>
 
 </menu>

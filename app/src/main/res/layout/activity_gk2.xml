@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
 
-    android:background="@drawable/bg"
+    android:background="#44D8EC"
     tools:context=".gk2">
 
     <TextView
@@ -14,7 +14,7 @@
         android:layout_height="wrap_content"
         android:text="@string/question_2"
         android:fontFamily="sans-serif-condensed"
-        android:textColor="@color/design_default_color_primary_variant"
+
         android:textStyle="bold"
         android:textSize="30sp"
 

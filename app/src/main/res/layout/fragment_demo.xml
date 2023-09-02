@@ -18,7 +18,7 @@
             android:text="@string/welcome"
             android:paddingBottom="20dp"
             android:textAlignment="center"
-            android:textColor="@color/design_default_color_primary_variant"
+
             android:textSize="30sp"
             android:textStyle="bold"
 
@@ -35,7 +35,7 @@
             android:layout_width="match_parent"
             android:layout_height="259dp"
             android:contentDescription="@string/todo"
-            android:src="@drawable/img"
+            android:src="@drawable/img_2"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.0"
@@ -51,6 +51,7 @@
             android:text="@string/q"
             android:textSize="18sp"
             android:textAlignment="center"
+
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.0"

@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/bg"
+    android:background="#44D8EC"
     tools:context=".demo2">
 
     <TextView
@@ -13,9 +13,10 @@
         android:layout_height="wrap_content"
         android:text="@string/question_2"
         android:fontFamily="sans-serif-condensed"
-        android:textColor="@color/design_default_color_primary_variant"
+
         android:textStyle="bold"
         android:textSize="30sp"
+
 
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -31,6 +32,7 @@
         android:layout_marginBottom="20dp"
         android:fontFamily="sans-serif-condensed-medium"
         android:paddingStart="15dp"
+
         android:text="Who among the following considered as the 'father of artificial intelligence'?"
         android:textSize="20sp"
         app:layout_constraintBottom_toTopOf="@+id/demo_rg2"

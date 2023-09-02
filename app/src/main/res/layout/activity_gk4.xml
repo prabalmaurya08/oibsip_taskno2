@@ -5,7 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
 
-    android:background="@drawable/bg"
+    android:background="#44D8EC"
+
     tools:context=".gk4">
 
     <TextView
@@ -14,7 +15,7 @@
         android:layout_height="wrap_content"
         android:text="@string/question_4"
         android:fontFamily="sans-serif-condensed"
-        android:textColor="@color/design_default_color_primary_variant"
+
         android:textStyle="bold"
         android:textSize="30sp"
 
@@ -35,6 +36,7 @@
         android:text="@string/as_per_the_imf_s_recent_world_economic_outlook_report_october_2022_what_is_india_s_2022_23_gdp_forecast"
         android:textSize="20sp"
         android:paddingStart="15dp"
+
         app:layout_constraintBottom_toTopOf="@+id/gk_rg4"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.145"

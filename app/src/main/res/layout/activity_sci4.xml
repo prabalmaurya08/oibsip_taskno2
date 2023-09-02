@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/bg"
+    android:background="#44D8EC"
     tools:context=".sci4">
 
 
@@ -14,7 +14,7 @@
         android:layout_height="wrap_content"
         android:text="Question 4"
         android:fontFamily="sans-serif-condensed"
-        android:textColor="@color/design_default_color_primary_variant"
+
         android:textStyle="bold"
         android:textSize="30sp"
 
@@ -27,6 +27,7 @@
 
     <TextView
         android:id="@+id/sci_q4_tv"
+
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="20dp"

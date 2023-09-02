@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/bg"
+    android:background="#44D8EC"
     tools:context=".ui.slideshow.scienceFragment">
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
@@ -17,7 +17,7 @@
             android:text="@string/welcome"
             android:paddingBottom="20dp"
             android:textAlignment="center"
-            android:textColor="@color/design_default_color_primary_variant"
+            android:background="#44D8EC"
             android:textSize="30sp"
             android:textStyle="bold"
 
@@ -34,7 +34,7 @@
             android:layout_width="match_parent"
             android:layout_height="172dp"
             android:contentDescription="@string/todo"
-            android:src="@drawable/sci"
+            android:src="@drawable/science"
             android:layout_marginTop="30dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
@@ -49,7 +49,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="30dp"
 
-            android:text="General Knowledge Quizz"
+            android:text="Science Quizz"
             android:padding="10dp"
             android:textSize="18sp"
             android:textAlignment="center"
